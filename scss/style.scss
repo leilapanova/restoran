@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    font-family: Open Sans;
+}
+.container{
+    margin: 0 166px;
+}
+//header
+
+.bg-block{
+    background: url("../img/hero-image.png") no-repeat center center / cover;
+}
+ul{
+    list-style: none;
+}
+.header{
+    
+    &__wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__logo{
+      
+    }
+    &__btns{
+        display: flex;
+        margin-right: 20px;
+        margin-left: 370px;
+    }
+    &__btn{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+    
+    &__cart{
+        margin-right: 16px;
+    }
+    &__number{
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+    &__num-block{
+        display: flex;
+        align-items: center;
+    }
+    &__info-block{
+        display: flex;
+        flex-direction: column;
+        margin-right: 45px;
+    }
+    &__phone{
+        width: 23px;
+        height: 23px;
+        
+    }
+    &__info-text{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -10px;
+
+    }
+    &__btn-block{
+        background: #FF7400;
+        padding: 14px  19px;
+        margin-left: 45px;
+    }
+    &__btn-deliv{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+       
+    }
+    &__line{
+        width: 0.5px;
+        height: 51px;
+        margin-right: 34px;
+        border: 1px solid #fff;
+    }
+    
+}
+
+.info{
+    &__wrap{
+        display: flex;
+        align-items: center;
+    }
+    &__subtitle{
+        color: #D67E35;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 33px;
+        margin-top: 325px;
+    }
+    &__title{
+        color: #D67E35;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -50px;
+    }
+    &__names-block{
+        display: flex;
+        align-items: center;
+        padding-left: 105px;
+        margin-top: -80px;
+    }
+    &__line{
+        width: 61px;
+        height: 0.5px;
+        border: 1px solid #fff;
+    }
+    &__name{
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0 8px;
+    }
+    &__text-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__btn-block{
+        background: #FF7400;
+        padding: 14px 28px;
+        text-align: center;
+        width: 137px;
+        margin-left: 150px; 
+        margin-bottom: 231px;
+    }
+    &__btn{
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    &__card-bg{
+        background-color: #fff;
+        width: 349px;
+        height: 328px;
+        box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+    }
+    &__cards{
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+
+    }
+    &__card{
+        margin-left: 31px;
+    }
+    &__card-logo{
+        margin-left: 120px;
+    }
+    &__card-title{
+        margin-left: 25px;
+        color: #2C2C2C;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        span{
+            color: #BC9060;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    &__card-text{
+        color: #656363;
+        text-align: center;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    &__block{
+        display: flex;
+    }
+    &__text{
+        max-width: 444px;
+    }
+}
+
